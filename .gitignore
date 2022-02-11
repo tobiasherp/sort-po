@@ -131,3 +131,9 @@ dmypy.json
 # Editor artifacts
 *~
 .*.sw[opq]
+
+# VirtualEnv
+Include/
+Scripts/
+pip-selfcheck.json
+tcl/
