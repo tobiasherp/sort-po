@@ -31,10 +31,10 @@ kwargs = {
     'long_description_content_type': 'text/x-rst',
     'version': __version__,
     'packages': find_packages('src'),
-    'install_requires': {
+    'install_requires': [
         'setuptools',
         'thebops',
-        },
+        ],
     'entry_points': {
         'console_scripts': console_scripts,
         },
